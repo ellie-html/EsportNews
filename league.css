@@ -623,7 +623,7 @@ section {
 }
 
 .box {
-  width: 100%;
+  width: 50%;
   height: 100%;
   position: relative;
   display: -webkit-box;
@@ -725,7 +725,7 @@ section {
   display: flex;
 }
 
-.role p {
+.role .little-text {
   -webkit-animation: secFadeIn 2s forwards;
           animation: secFadeIn 2s forwards;
   -webkit-animation-delay: 3.2s;
@@ -964,9 +964,10 @@ section {
 
 @media screen and (max-width: 800px) {
   .box {
+    width: 100%;
     margin-left: 0px;
   }
-  .box p {
+  .little-text {
     margin-left: 100px;
   }
   .box h1 {
